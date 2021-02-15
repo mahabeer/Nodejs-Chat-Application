@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.messages {
+    padding: 10px;
+ }
+.messages.right p {
+    background: #00c100;
+    padding: 10px;
+    border-radius: 10px;
+}
+.messages.left p {
+    background: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.messages.right {
+    text-align: right;
+    
+    width: 50%;
+    float: right;
+}
+.messages.left {
+    width: 50%;
+    float: left;
+}
+div#message_container {
+    height: 400px;
+    overflow-y: scroll;
+    background: #eee;
+}
+h4 {
+    margin: 0;
+    font-size: 12px;
+}
+p {
+    margin: 0;
+    margin-top: 10px;
+}
+form#msg_form input {
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    border: 3px solid #ff6e6e;
+    box-sizing: border-box;
+
+}
+p#typing {
+    background: #eee;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    color: green;
+    min-height: 40px;
+}
+h2 {
+    background: #ff6e6e;
+    margin: 0;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+p.joined_chat {
+    background: #ff6e6e !important;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 20px 0px 20px 0px !important;
+}
+p.left_chat {
+    background: red !important;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 20px 0px 20px 0px !important;
+}
